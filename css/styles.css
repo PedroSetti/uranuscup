@@ -1,6 +1,6 @@
 /* Gerais */
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .row {
@@ -71,7 +71,19 @@ header {
     font-weight: 300;
 }
 
+/* .login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0187a7;
+}
 
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+} */
 
 .mobile-menu-icon {
     display: none;
@@ -213,8 +225,31 @@ header {
   margin-right: 15px;
 }
 
-/* Programação*/
+/* Serviços */
 
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+  transition: .5s;
+}
+
+.service-box i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.service-box h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+  color: #65DAF9;
+}
 
 /* Dados */
 
@@ -240,10 +275,10 @@ header {
   text-align: center;
 }
 
-/* Portfólio */
+/* Mapas */
 
 .project-box {
-  margin-bottom: 30px;
+  margin-bottom: 6px;
 }
 
 #filter-btn-box {
@@ -251,24 +286,6 @@ header {
   text-align: center;
 }
 
-#portfolio-area .filter-btn {
-  color: #444;
-  border: 1px solid #444;
-  background-color: transparent;
-  text-transform: none;
-  margin: 0 15px;
-  min-width: 100px;
-  width: auto;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 20px;
-}
-
-#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
-  color: #FFF;
-  border: 1px solid #65DAF9;
-  background-color: #65DAF9;
-}
 
 /* Footer */
 
