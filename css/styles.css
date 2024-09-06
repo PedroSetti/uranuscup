@@ -1,6 +1,6 @@
 /* Gerais */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Press Start 2P', cursive;
   background-color: #000123;
 }
 
@@ -32,6 +32,7 @@ p, li {
   font-family: 'Press Start 2P', cursive;
   display: block;
   text-align: center;
+  color: #fff;
 }
 
 /* .login-button button {
@@ -47,54 +48,6 @@ p, li {
     font-weight: 500;
     font-size: 1.1rem;
 } */
-
-.mobile-menu-icon {
-    display: none;
-}
-
-.mobile-menu {
-    display: none;
-}
-
-@media screen and (max-width: 730px) {
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-    .mobile-menu .login-button button {
-        width: 100%;
-    }
-    .open {
-        display: block;
-    }
-}
 
 /* Slider */
 
@@ -147,28 +100,26 @@ p, li {
 
 /* Sobre a liga */
 
-#about-area {
-  background-color: #F9F9F9;
-}
+
 
 .main-title {
-  color: #444;
+  color: #ffffff;
   margin: 0 0 65px 0;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
 }
 
-.main-title::after {
+/* .main-title::after {
   content: "";
   border-top: 2px solid #333;
   width: 15%;
   position: absolute;
   top: 60px;
   left: 42.5%;
-}
+} */
 
 .about-title {
-  font-size: 17px;
+  font-size: 18px;
   color: #444;
   text-transform: uppercase;
   font-weight: bold;
@@ -188,55 +139,10 @@ p, li {
   margin-right: 15px;
 }
 
-/* Serviços */
 
-.service-box {
-  text-align: center;
-  margin-bottom: 50px;
-}
 
-.service-box i, .service-box h4 {
-  transition: .5s;
-}
 
-.service-box i {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #444;
-}
 
-.service-box h4 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.service-box:hover > i, .service-box:hover > h4 {
-  color: #65DAF9;
-}
-
-/* Dados */
-
-.circle-box div {
-  padding: 0 40px;
-}
-
-.progressbar-text {
-  font-weight: bold;
-  font-size: 32px;
-}
-
-#data-area p {
-  color: #FFF;
-  text-align: center;
-  font-size: 26px;
-  margin-top: 20px;
-}
-
-/* Time */
-
-.card-body {
-  text-align: center;
-}
 
 /* Mapas */
 
