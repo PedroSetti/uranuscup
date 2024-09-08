@@ -1,0 +1,19 @@
+<div class="col-12">
+                <h3 class="main-title sobre">Sobre a Liga</h3>
+              </div>
+              <div class="liga">
+                <h1>Liga URANUSCUP BF4</h1>
+                  <p>Liga UranusCup BF4
+                    Modo: X5
+                    Tipo: Obliteration e Domination
+                    Administradores: Julio-Uran-
+                    Julio/André-1PnS e Erik- 1PCista
+                    Apoio: Uranus Gaming/Servidor
+                    Urologista/Fragnet
+                    Campeonato só terá uma data
+                    definida quando atingir 16 times.
+                    Está programado para final de
+                    Setembro de 2024.
+                  </p>
+              </div>
+</div>
