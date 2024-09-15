@@ -9,6 +9,7 @@ body {
   color: #ff0f7b;
   font-family: monospace;
   text-align: center;
+  margin: 0;
 }
 
 .banner{
@@ -22,12 +23,16 @@ body {
 
 
 .container {
-  margin-top: 100px;
+  margin-top: 0px;
   justify-content: center;
-  padding: 10px;
+  padding:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-h1 {
+h1{
   font-size: 2.2rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -38,10 +43,56 @@ h1 {
 
 p {
   font-size: 1rem;
-  margin: 2px;
   font-weight: 700;
   font-family: 'Press Start 2P', cursive;
   padding: -3px;
   margin: -2px;
 }
 
+.premium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #020231;
+}
+
+.player {
+  width: 30%;
+  height: 70%;
+  margin: 20px;
+}
+
+.text {
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.text, h1{
+  color: #ff0f7b;
+}
+
+.text,p{
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+
+.btn-inscricao {
+  background-color: #f05f9b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: underline;
+  font: 1em sans-serif;
+  font-weight: bold;
+  color: #020231;
+}
+
+.btn-inscricao:hover {
+  background-color: #c0487a;
+}
